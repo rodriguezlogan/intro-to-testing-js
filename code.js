@@ -13,6 +13,12 @@ function isFive(x){
     return (parseInt(x)===5)
 }
 
+function add(x,y){
+    if (parseInt(x) == x && parseInt(y) == y)
+        return parseInt(x)+parseInt(y);
+    return "NaN";
+}
+
 function isEven(x){
     return (parseInt(x)%2===0)
 }
