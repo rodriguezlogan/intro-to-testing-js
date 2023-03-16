@@ -28,6 +28,9 @@ describe('sayHello', function (){
       expect(sayHello("Alex")).toBe("Hello, Alex!");
     });
     it('should return "Hello, Pat!" when executed',function (){
-        expect(sayHello("Pat")).toBe("Hello, Pat!");
+      expect(sayHello("Pat")).toBe("Hello, Pat!");
     });
+    it('should return "Hello, World!" when executed',function (){
+      expect(sayHello()).toBe("Hello, World!");
+    })
 });
