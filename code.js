@@ -12,3 +12,7 @@ function sayHello(x){
 function isFive(x){
     return (parseInt(x)===5)
 }
+
+function isEven(x){
+    return (parseInt(x)%2===0)
+}
