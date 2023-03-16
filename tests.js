@@ -32,5 +32,5 @@ describe('sayHello', function (){
     });
     it('should return "Hello, World!" when executed',function (){
       expect(sayHello()).toBe("Hello, World!");
-    })
+    });
 });
